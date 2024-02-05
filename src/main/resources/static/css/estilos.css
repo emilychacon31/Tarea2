@@ -1,0 +1,143 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 5 feb 2024, 15:39:28
+    Author     : emily
+*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.header {
+    background-color: #4CAF50;
+    padding: 1em;
+    text-align: center;
+    color: white;
+}
+
+.titulo {
+    margin: 0;
+    font-size: 18px; 
+    color: FFDB55;
+}
+
+.subtitle {
+    margin: 0;
+    font-size: 14px; 
+}
+
+.seccion {
+    padding: 10px;
+}
+
+.titulo-seccion {
+    color: #FFC900;
+    font-size: 18px;
+}
+
+.lista {
+    list-style-type: none;
+
+}
+
+.service-item {
+    margin-bottom: 0.5em;
+}
+
+.footer, .footer-text {
+    background-color: #7E3C01;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #F9D3B2;
+    overflow: hidden;
+}
+
+.nav-menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu-item {
+    float: left;
+}
+
+.nav-menu-link{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.nav-menu-lin nav-link:hover {
+    background-color: white;
+    color: FF973C;
+}
+
+.tabla-eventos  {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+}
+
+.tabla-eventos th, .tabla-eventos  td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.img-evento {
+    width: 100%;
+    max-width: 100px; 
+    display: block;
+    margin: 0 auto;
+}
+
+.seccion-contacto{
+    padding: 10px;
+    text-align: center;
+}
+
+.section-title {
+    color: #4CAF50;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 1em;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
